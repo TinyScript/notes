@@ -10,4 +10,6 @@
 - [ref更新](https://github.com/TinyScript/notes/blob/master/react/ref更新.md)
 - [Error错误组件](https://github.com/TinyScript/notes/blob/master/react/Error错误组件.md)
 - [生命周期的变化](https://github.com/TinyScript/notes/blob/master/react/生命周期的变化.md)
-- [hooks](https://github.com/TinyScript/notes/blob/master/react/hooks.md)
+- [hooks-useMemo](https://github.com/TinyScript/notes/blob/master/react/hooks-useMemo.md)
+- [hooks-useEffect](https://github.com/TinyScript/notes/blob/master/react/hooks-useEffect.md)
+- [hooks-useRef](https://github.com/TinyScript/notes/blob/master/react/hooks-useRef.md)
