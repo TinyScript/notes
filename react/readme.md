@@ -6,3 +6,8 @@
 - [组件插槽](https://github.com/TinyScript/notes/blob/master/react/组件插槽.md)
 - [Suspense组件](https://github.com/TinyScript/notes/blob/master/react/Suspense组件.md)
 - [Memo组件](https://github.com/TinyScript/notes/blob/master/react/Memo组件.md)
+- [Context传递props](https://github.com/TinyScript/notes/blob/master/react/Context传递props.md)
+- [ref更新](https://github.com/TinyScript/notes/blob/master/react/ref更新.md)
+- [Error错误组件](https://github.com/TinyScript/notes/blob/master/react/Error错误组件.md)
+- [生命周期的变化](https://github.com/TinyScript/notes/blob/master/react/生命周期的变化.md)
+- [hooks](https://github.com/TinyScript/notes/blob/master/react/hooks.md)

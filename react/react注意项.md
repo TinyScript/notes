@@ -15,4 +15,5 @@
 - 如果生命周期没有用对，组件会发生大量的重复性渲染。
 - this的指向需要开发者自己bind，否则默认是undefined。
 - jsx的问题，必须要用div进行包裹最外层。react新版本处理了这个问题。
+- 什么时候能动state，生命周期在Will的时候可以动，render也可以动，shouldComponentUpdate和componentWillUpdate，15版本。
 - 
