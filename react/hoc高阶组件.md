@@ -4,12 +4,19 @@
 以下面的代码为例，如果没有高阶组件，Welcome与GoodBye组件可能要重复定义state，并且还要重复写在生命周期中获取localStorage的值，这样就失去组件化的优势了。
 
 然而我们可以通过高阶组件去避免这种情况的发生：
+
 1、通过定义一个函数用于接收一个将要做欢迎动作的组件A（Welcome）。
+
 2、该函数拿到组件A后，通过一系列的操作返回一个新组件（NewComponent），以上的两个步骤就是核心思想，下面继续细说过程。
+
 3、要做欢迎动作的组件A不知道给谁欢迎，所以这时就是新组件要做功的时候了。
+
 4、新组件在componentWillMount获取了localStorage的数据并setState到了username中。
+
 5、再通过render将username给到了组件A。
+
 6、此时组件A只需要对新组件给到的props.username打招呼即可。
+
 7、这样就可以做到一个很好的解耦，也保持了组件之间的纯度，符合函数式编程的要求。
 
 ```javascript
