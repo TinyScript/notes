@@ -1,2 +1,2 @@
 # react
-- [普通组件](https://github.com/TinyScript/notes/react/普通组件.md)
+- [普通组件](https://github.com/TinyScript/notes/blob/master/react/普通组件.md)
