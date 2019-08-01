@@ -7,7 +7,7 @@
 
 因为约定俗成，**Action**必须要有一个`type`字段，它可以说是**Action**的名字，执行者就是通过type找到对应的**Action**对象。`type`可以定义为常量，然后从其他的module导入。不用Symbols的因为String可以被序列化。
 
-除了`type`之外，**Action**对象的结构完全取决于你自己。但是最好遵循一下Flux Standard Action的`FSA的规则`
+除了`type`之外，**Action**对象的结构完全取决于你自己。但是最好遵循一下[Flux Standard Action](https://github.com/redux-utilities/flux-standard-action#flux-standard-action)的`FSA的规则`
 ```javascript
 // normal
 {
