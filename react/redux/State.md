@@ -1,5 +1,5 @@
 # State 
-> type State = any;
+> type State = any
 
 **State**也叫state tree，与vuex中的**State**相似，由`store`管理，通过`getState()`方法获取，它表示了Redux的全部状态。
 
