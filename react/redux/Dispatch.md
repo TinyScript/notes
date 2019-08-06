@@ -12,3 +12,10 @@
  它期望的action是一个可以被`reducer消费`的普通对象。
 - **Middleware dispatch**：经过`Middleware封装的base dispatch`，允许**dispatch**处理action之外的`异步 action`。
  Middleware可以改变、延迟、忽略action或者异步action，也可以在下一个middleware之前对他们进行解释。
+
+重点：
+- dispatch可以接收action与异步 action。
+- 可以分发一个或多个，或者不分发action。
+- 一般的dispatch是指被`middleware`封装过的base dispatch，用来处理一些异步的内容。
+- base dispatch只能处理同步操作。
+- 一般的dispatch用于处理异步操作。
