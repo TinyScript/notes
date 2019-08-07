@@ -12,7 +12,6 @@
 **connect**会提供两个参数，`mapStateToProps`与`mapActionToProps`，顾名思义，这样react组件就可以通过props进行调用redux注入的state与action。
 
 >mapStateToProps接收一个函数，并提供state参数由你拆解，并返回一个新的对象。
-
 >mapActionToProps接收一个action函数的对象。
 - type mapStateToProps = (state) => {}
 - type mapActionToProps = {}
