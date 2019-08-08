@@ -11,7 +11,52 @@
 
 **connect**会提供两个参数，`mapStateToProps`与`mapActionToProps`，顾名思义，这样react组件就可以通过props进行调用redux注入的state与action。
 
->mapStateToProps接收一个函数，并提供state参数由你拆解，并返回一个新的对象。<br><br>
+>mapStateToProps接收一个函数，提供state参数由你拆解，并返回一个新的对象。<br><br>
 >mapActionToProps接收一个action函数的对象。
 - type mapStateToProps = (state) => {}
 - type mapActionToProps = {}
+
+然后只需要在组件中调用对应的props名即可。
+
+下面是最外层的用法，还不涉及到redux的内部用法。
+```javascript
+import React from 'react';
+import { Provider, connect } from 'react-redux';
+import { render } from 'react-dom';
+import { createStore, combineReducers } from 'redux';
+import { todos, menu } from '@/store/reducers';
+import { setTodos, setMenu } from '@/store/widget';
+
+@connect((state) => {
+  todos: state.todos,
+  menu: state.menu
+},{
+  setTodos, 
+  setMenu
+})
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <div onClick={() => this.clickEvent()}>{this.props.todos}</div>
+        <div>{this.props.menu}</div>
+      </div>
+    )
+  }
+  clickEvent() {
+    this.props.setTodos();
+    this.props.setMenu();
+  }
+}
+
+const store = createStore(combineReducers({
+  todos, 
+  menu
+}))
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+)
+```
