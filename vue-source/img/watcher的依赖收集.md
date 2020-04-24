@@ -1,0 +1,1 @@
+![watcher的依赖收集](https://github.com/TinyScript/notes/blob/master/images/vue/watcher%E7%9A%84%E4%BE%9D%E8%B5%96%E6%94%B6%E9%9B%86.jpg)

@@ -126,3 +126,8 @@ genChildren([ASTNode, ASTNode, ASTNode])
 好嘞，render前置部分已经讲完了，render过程因为debugger时过了一遍，就顺手也粗略的写了一下笔记，没有细写，render部分与update阶段一起写笔记。
 
 接下来先对字符串模板解析成抽象语法树部分进行解读。
+
+
+这个图是针对之前三章的一个总结，上活！
+
+![AST生成render的结构图]](https://github.com/TinyScript/notes/blob/master/images/vue/vue-generate%E5%87%BD%E6%95%B0%E8%A7%A3%E8%AF%BB.jpg)

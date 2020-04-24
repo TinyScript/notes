@@ -1,0 +1,1 @@
+![vue-模板编译函数的关系](https://github.com/TinyScript/notes/blob/master/images/vue/vue-%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91%E5%87%BD%E6%95%B0%E7%9A%84%E5%85%B3%E7%B3%BB.jpg)

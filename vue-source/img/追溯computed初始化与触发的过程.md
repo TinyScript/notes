@@ -1,0 +1,1 @@
+![追溯data初始化与update的过程](https://github.com/TinyScript/notes/blob/master/images/vue/%E8%BF%BD%E6%BA%AFcomputed%E5%88%9D%E5%A7%8B%E5%8C%96%E4%B8%8E%E8%A7%A6%E5%8F%91%E7%9A%84%E8%BF%87%E7%A8%8B.jpg)

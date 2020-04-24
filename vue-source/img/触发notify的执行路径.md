@@ -1,0 +1,1 @@
+![触发notify的执行路径](https://github.com/TinyScript/notes/blob/master/images/vue/%E8%A7%A6%E5%8F%91notify%E7%9A%84%E6%89%A7%E8%A1%8C%E8%B7%AF%E5%BE%84.jpg)
