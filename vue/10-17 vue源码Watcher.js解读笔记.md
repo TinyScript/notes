@@ -775,3 +775,5 @@ createComputedGetter是一个高阶函数，返回computedGetter。
 到了computedGetter这一步，其实就是返回到赋值给`sharedPropertyDefinition.get`那一步了。这一块逻辑主要是触发`watcher.evaluate`函数用的。
 
 也就是说只要访问了computed[key]，就会触发`computed[key].get`，从而触发`computedGetter`函数，然后调用watcher.evaluate，最后调用`watcher.value = watcher.get()`更新。
+
+![Watcher脑图](https://github.com/TinyScript/notes/blob/master/images/vue/Watcher.jpg)
