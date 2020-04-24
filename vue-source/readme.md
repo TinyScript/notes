@@ -20,6 +20,7 @@
 
 ### 编译AST
 1. [2020-03-16 vue源码笔记-字符串解析成AST.md](https://github.com/TinyScript/notes/blob/master/vue-source/2020-03-16%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E6%9E%90%E6%88%90AST.md)
+2. html标签属性解析成AST
 
 ### AST -> generate
 1. [2019-12-29 vue源码笔记-render前置部分：ast生成render的过程（一）.md](https://github.com/TinyScript/notes/blob/master/vue-source/2019-12-29%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-render%E5%89%8D%E7%BD%AE%E9%83%A8%E5%88%86%EF%BC%9Aast%E7%94%9F%E6%88%90render%E7%9A%84%E8%BF%87%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89.md)
@@ -28,8 +29,9 @@
 4. [2020-03-12 vue源码笔记-render前置部分：ast生成render的过程（三）.md](https://github.com/TinyScript/notes/blob/master/vue-source/2020-03-12%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-render%E5%89%8D%E7%BD%AE%E9%83%A8%E5%88%86%EF%BC%9Aast%E7%94%9F%E6%88%90render%E7%9A%84%E8%BF%87%E7%A8%8B%EF%BC%88%E4%B8%89%EF%BC%89.md)
 
 ### vdom
-1. [10-09 vue源码vm.__patch__解读笔记.md](https://github.com/TinyScript/notes/blob/master/vue-source/10-09%20vue%E6%BA%90%E7%A0%81vm.__patch__%E8%A7%A3%E8%AF%BB%E7%AC%94%E8%AE%B0.md)
-2. [8-25 vue dom diff逻辑简析.md](https://github.com/TinyScript/notes/blob/master/vue-source/8-25%20vue%20dom%20diff%E9%80%BB%E8%BE%91%E7%AE%80%E6%9E%90.md)
+1. [8-25 vue dom diff逻辑简析.md](https://github.com/TinyScript/notes/blob/master/vue-source/8-25%20vue%20dom%20diff%E9%80%BB%E8%BE%91%E7%AE%80%E6%9E%90.md)
+2. [10-09 vue源码vm.__patch__解读笔记.md](https://github.com/TinyScript/notes/blob/master/vue-source/10-09%20vue%E6%BA%90%E7%A0%81vm.__patch__%E8%A7%A3%E8%AF%BB%E7%AC%94%E8%AE%B0.md)
+3. virtual dom生成笔记
 
 ### 组件挂载
 1. [2020-03-04 vue源码笔记-组件创建的过程.md](https://github.com/TinyScript/notes/blob/master/vue-source/2020-03-04%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E7%BB%84%E4%BB%B6%E5%88%9B%E5%BB%BA%E7%9A%84%E8%BF%87%E7%A8%8B.md)
