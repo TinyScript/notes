@@ -17,8 +17,8 @@
 7. [12-04 vue源码笔记-什么是Dep.target](https://github.com/TinyScript/notes/blob/master/vue-source/12-04%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E4%BB%80%E4%B9%88%E6%98%AFDep.target.md)
 8. [12-16 vue源码笔记-watcher收集dep实例的时机](https://github.com/TinyScript/notes/blob/master/vue-source/12-16%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-watcher%E6%94%B6%E9%9B%86dep%E5%AE%9E%E4%BE%8B%E7%9A%84%E6%97%B6%E6%9C%BA.md)
 9. [12-16 vue源码笔记-为什么要收集依赖？](https://github.com/TinyScript/notes/blob/master/vue-source/12-16%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%94%B6%E9%9B%86%E4%BE%9D%E8%B5%96%EF%BC%9F.md)
-10. [2020-02-29 组件、$watch、computed的watcher逻辑记录](https://github.com/TinyScript/notes/blob/master/vue-source/2020-02-28 vue源码笔记-计算属性函数什么时候才会被调用.md)
-11. [2020-02-29 computed什么时候才会被调用的逻辑记录](https://github.com/TinyScript/notes/blob/master/vue-source/2020-02-28 vue源码笔记-计算属性函数什么时候才会被调用.md)
+10. [2020-02-29 组件、$watch、computed的watcher逻辑记录](https://github.com/TinyScript/notes/blob/master/vue-source/2020-02-28%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E6%80%BB%E7%BB%93%EF%BC%9A%E7%BB%84%E4%BB%B6%E3%80%81%24watch%E3%80%81computed%E7%9A%84watcher%E5%85%B3%E7%B3%BB.md)
+11. [2020-02-29 computed什么时候才会被调用的逻辑记录](https://github.com/TinyScript/notes/blob/master/vue-source/2020-02-28%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E8%AE%A1%E7%AE%97%E5%B1%9E%E6%80%A7%E5%87%BD%E6%95%B0%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%89%8D%E4%BC%9A%E8%A2%AB%E8%B0%83%E7%94%A8.md)
 
 ### 编译AST
 1. [2020-03-16 vue源码笔记-字符串解析成AST](https://github.com/TinyScript/notes/blob/master/vue-source/2020-03-16%20vue%E6%BA%90%E7%A0%81%E7%AC%94%E8%AE%B0-%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E6%9E%90%E6%88%90AST.md)
